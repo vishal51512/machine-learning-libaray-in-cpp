@@ -31,16 +31,14 @@ g++ -std=c++17 \
 ```
 
 ## Project structure
-```
-nova-ml/
-  include/
-    base/           Estimator interface
-    core/           Matrix/Vector wrappers
-    linear_model/   Linear & logistic models
-    metrics/        Accuracy and utilities
-    model_selection/ Train/test split
-    neighbors/      KNN classifier
-    tree/           Decision tree & random forest
-    visualization/  Plot helpers (optional)
-  main.cpp          Example usage
-```
+- `nova-ml/`
+  - `include/`
+    - `base/` — Estimator interface
+    - `core/` — Matrix/Vector wrappers
+    - `linear_model/` — Linear & logistic models
+    - `metrics/` — Accuracy and utilities
+    - `model_selection/` — Train/test split
+    - `neighbors/` — KNN classifier
+    - `tree/` — Decision tree & random forest
+    - `visualization/` — Plot helpers (optional)
+  - `main.cpp` — Example usage
