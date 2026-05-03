@@ -17,7 +17,7 @@ Lightweight, header-only machine learning utilities in C++ built on top of Eigen
 - (Optional) Python + matplotlib for visualization helpers
 
 ## Build and run the example
-The sample entry point is `nova-ml/main.cpp`.
+The sample entry point is `nova-ml/main.cpp`. Replace `<path-to-eigen-headers>` with your Eigen include path (commonly `/usr/include/eigen3`).
 
 ```bash
 g++ -std=c++17 \
